@@ -1,7 +1,7 @@
 import AcmeLogo from "@/app/ui/acme-logo"
 import { ArrowRightIcon } from "@heroicons/react/24/outline"
 import Link from "next/link"
-import { beautifulPoliceOfficer, lusitana } from "./ui/fonts/fonts"
+import { beautifulPoliceOfficer, lusitana } from "./ui/fonts"
 import Image from "next/image"
 
 export default function Page() {
@@ -42,9 +42,6 @@ export default function Page() {
             className="block md:hidden"
             alt="Screenshots of the dashboard project showing desktop version"
           />
-          <p className={beautifulPoliceOfficer.className}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, dolorum?
-          </p>
         </div>
       </div>
     </main>
